@@ -1,0 +1,15 @@
+def greater_than(x,y):
+  if x > y:
+    return x
+  if x < y:
+    return y
+  if x == y:
+    return "These numbers are the same"
+
+print(greater_than(5,5))
+
+def graduation_reqs(credits):
+  if credits >= 120:
+    return "You have enough credits to graduate!"
+
+print(graduation_reqs(120))
