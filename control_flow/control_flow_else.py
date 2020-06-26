@@ -1,3 +1,8 @@
+# Else Statements
+
+# Calvin Coolidge’s Cool College has another request for you. They want you to add an additional check to the graduation_reqs function. If a student is failing to meet both graduation requirements, they want the function to return:
+# "You do not meet the GPA or the credit requirement for graduation."
+# Use an else statement to add this to your function.
 def graduation_reqs(gpa, credits):
   if (gpa >= 2.0) and (credits >= 120):
     return "You meet the requirements to graduate!"
